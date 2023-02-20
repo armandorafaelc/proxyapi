@@ -1,0 +1,16 @@
+server:
+  port: 8443
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+  url: https://brasilapi.com.br/api/
+  name: brasilapi
+
+retry:
+  maxAttempts: 2
+  maxDelay: 100
