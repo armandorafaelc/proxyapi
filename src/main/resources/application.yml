@@ -13,4 +13,4 @@ feign:
 
 retry:
   maxAttempts: 2
-  maxDelay: 100
+  maxDelay: 10000
